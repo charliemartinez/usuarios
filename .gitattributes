@@ -6,3 +6,5 @@
 .src/**/*.class linguist-language=Gambas linguist-detectable=true
 .src/**/*.form  linguist-language=Gambas linguist-detectable=true
 
+main.gbs linguist-language=Gambas linguist-detectable=true
+
