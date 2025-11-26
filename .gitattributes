@@ -1,4 +1,4 @@
 *.gbs linguist-language=Gambas
 *.class linguist-language=Gambas
 *.module linguist-language=Gambas
-
+*.form linguist-language-Gambas
