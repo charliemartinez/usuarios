@@ -1,23 +1,79 @@
-# usuarios
-Usuarios es un gestor gráfico que inicializa con los permisos adecuados aplicaciones para gestionar usuarios, grupos y contraseñas.
+# Quirinux Usuarios
 
-**Autor:** Charlie Martínez.
+**Autor / Author:** Charlie Martínez – Quirinux GNU/Linux®  
+**Licencia / License:** GPLv2.0
 
-![actualizar](https://quirinux.ga/img/usuarios.jpg)
+[TODO añadir screenshot]
 
-Hecho para el sistema operativo Quirinux GNU/Linux, compatible con Debian, Ubuntu, Devuan, Etertics, GobMis y otras derivadas.
+---
 
-**Programado en Basch y lenguaje Gambas3 (simil Visual Basic).**
-http://gambas.sourceforge.net/en/main.html
+## 🧭 Descripción general / Overview
 
-Licencia GPLv2.
+**ES:**  
+`Quirinux Usuarios` es un gestor gráfico que inicializa con los permisos adecuados las aplicaciones necesarias para administrar **usuarios, grupos y contraseñas** en sistemas GNU/Linux. Su objetivo es facilitar la gestión del sistema sin necesidad de abrir sesiones completas como superusuario, mejorando la seguridad y la usabilidad.
 
-Logotipo de Quirinux: Thomas Gaya. 
+Está especialmente diseñado para integrarse de forma nativa en **Quirinux**, aunque es compatible con cualquier distribución moderna basada en Debian.
 
-**Disponible en repositorio oficial de Quirinux GNU/Linux:**
+**EN:**  
+`Quirinux Usuarios` is a graphical manager that safely launches the required system tools with proper permissions to manage **users, groups, and passwords** on GNU/Linux systems. It avoids full root sessions, improving both security and usability.
 
-deb https://quirinux.ga/main/buster buster main
+It is natively integrated into **Quirinux**, but it remains compatible with any modern Debian-based distribution.
 
-Key:
+---
 
-wget -O - http://www.quirinux.ga/gpg/quirinux.asc | apt-key add -
+## ✔️ Características / Features
+
+**ES:**
+- Lanzador gráfico seguro para herramientas de administración de usuarios  
+- Gestión de:
+  - Usuarios  
+  - Grupos  
+  - Contraseñas  
+- Elevación de privilegios solo cuando es necesario  
+- Interfaz simple y directa  
+- Integración con el entorno Quirinux  
+- Optimizado para sistemas basados en Debian
+- Programado en Gambas, similar a Visual Basic, y Bash Scripting
+
+**EN:**
+- Secure graphical launcher for user administration tools  
+- Management of:
+  - Users  
+  - Groups  
+  - Passwords  
+- Privilege escalation only when required  
+- Simple and straightforward interface  
+- Integrated into the Quirinux desktop  
+- Designed for Debian-based systems  
+- Programmed in Gambas, similar to Visual Basic, and Bash scripting
+
+---
+
+## ▶️ Ejecución / How to Run
+
+**ES:**  
+Aplicación principal:  
+
+**EN:**  
+Main application:
+
+    https://repo.quirinux.org/pool/main/q/quirinux-usuarios/quirinux-usuarios_1.2.1_all.deb
+    apt install ./quirinux-usuarios_1.2.1_all.deb
+
+---
+
+## ⚖️ Aviso legal / Legal Notice
+
+**ES:**  
+Este proyecto forma parte del ecosistema **Quirinux**, pero es compatible con cualquier distribución moderna de GNU/Linux.  
+Distribuido bajo los términos de la licencia **GPLv2**.
+
+**EN:**  
+This project is part of the **Quirinux** ecosystem but remains compatible with any modern GNU/Linux distribution.  
+Released under the terms of the **GPLv2 license**.
+
+**Autor / Author:** Charlie Martínez  
+📧 <cmartinez@quirinux.org>
+
+**Más información / More information:**  
+https://www.quirinux.org/aviso-legal

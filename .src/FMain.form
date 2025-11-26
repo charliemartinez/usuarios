@@ -1,0 +1,184 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  Move(0,0,798,427)
+  #Scaled = False
+  Background = Color.White
+  NoTabFocus = True
+  Mask = True
+  Resizable = False
+  { Idioma Menu
+    Text = ("Idioma")
+    Visible = False
+    { es_AR Menu
+      #Translate = False
+      Action = "ar.Show"
+      Text = "Castellano (Argentina)"
+    }
+    { es_ES Menu
+      #Translate = False
+      Action = "es.Show"
+      Text = "Castellano (España)"
+    }
+    { de_DE Menu
+      #Translate = False
+      Action = "de.Show"
+      Text = "Deutsche"
+    }
+    { en_GB Menu
+      #Translate = False
+      Action = "engb.Show"
+      Text = "English (British)"
+    }
+    { en_US Menu
+      #Translate = False
+      Action = "us.Show"
+      Text = "English (USA)"
+    }
+    { fr_FR Menu
+      #Translate = False
+      Action = "fr.Show"
+      Text = "Français"
+    }
+    { gl_ES Menu
+      #Translate = False
+      Action = "gl.Show"
+      Text = "Galego"
+    }
+    { it_IT Menu
+      #Translate = False
+      Action = "it.Show"
+      Text = "Italiano"
+    }
+    { pt_BR Menu
+      #Translate = False
+      Action = "br.Show"
+      Text = "Português (Brasil)"
+    }
+    { pt_PT Menu
+      #Translate = False
+      Action = "pt.Show"
+      Text = "Português (Portugal)"
+    }
+    { ru_RU Menu
+      #Translate = False
+      Action = "ru.Show"
+      Text = "Pусский"
+    }
+  }
+  { LogoQuirinux PictureBox
+    Move(322,280,162,117)
+    Picture = Picture.Load("quirinux-rectangular.png")
+    Stretch = True
+  }
+  { Label1 Label
+    Move(28,0,868,70)
+    Font = Font["Ubuntu,+4"]
+    Background = &HE7DFFF
+    Foreground = Color.Black
+    Text = ("  Gestor de usuarios")
+  }
+  { usuarios Button
+    Move(28,98,364,42)
+    Font = Font["Ubuntu,+1"]
+    Mouse = Cursor.Pointing
+    ToolTip = ("Requiere contraseña de administrador")
+    Text = ("Administrar usuarios y grupos")
+    Picture = Picture["icon:/medium/user"]
+  }
+  { passactual Button
+    Move(28,154,364,42)
+    Font = Font["Ubuntu,+1"]
+    Mouse = Cursor.Pointing
+    ToolTip = ("Cambiar la contraseña de tu usuario")
+    Text = ("Cambiar contraseña del usuario actual")
+    Picture = Picture["icon:/medium/lock"]
+  }
+  { passadmin Button
+    Move(28,210,364,42)
+    Font = Font["Ubuntu,+1"]
+    Mouse = Cursor.Pointing
+    ToolTip = ("Requiere conocer la contraseña actual")
+    Text = ("Cambiar contraseña usuario administrador")
+    Picture = Picture["icon:/medium/important"]
+  }
+  { passadmin2 Button
+    Move(546,315,182,42)
+    Font = Font["Ubuntu,+1"]
+    Mouse = Cursor.Pointing
+    Text = ("Salir")
+    Picture = Picture["icon:/medium/quit"]
+  }
+  { autologin Button
+    Move(406,154,371,42)
+    Font = Font["Ubuntu,+1"]
+    Mouse = Cursor.Pointing
+    ToolTip = ("Activa inicio de sesion automático para el usuario actual")
+    Text = ("Activar inicio de sesión automático")
+    Picture = Picture["icon:/32/key"]
+  }
+  { noautologin Button
+    Move(406,210,371,42)
+    Font = Font["Ubuntu,+1"]
+    Mouse = Cursor.Pointing
+    ToolTip = ("Requiere contraseña del usuario actual")
+    Text = ("Desactivar inicio de sesión automático")
+    Picture = Picture["icon:/medium/delete"]
+  }
+  { mugshot Button
+    Move(406,98,371,42)
+    Font = Font["Ubuntu,+1"]
+    Mouse = Cursor.Pointing
+    Text = ("Modificar foto y datos de perfil")
+    Picture = Picture["icon:/medium/user"]
+  }
+}
+
+# Gambas Action File 3.0
+
+{ Actions
+  { Action ar.Show
+    Text = "Castellano (Argentina)"
+    Shortcut = ""
+  }
+  { Action br.Show
+    Text = "Português (Brasil)"
+    Shortcut = ""
+  }
+  { Action de.Show
+    Text = "Deutsche"
+    Shortcut = ""
+  }
+  { Action engb.Show
+    Text = "English (British)"
+    Shortcut = ""
+  }
+  { Action es.Show
+    Text = "Castellano (España)"
+    Shortcut = ""
+  }
+  { Action fr.Show
+    Text = "Français"
+    Shortcut = ""
+  }
+  { Action gl.Show
+    Text = "Galego"
+    Shortcut = ""
+  }
+  { Action it.Show
+    Text = "Italiano"
+    Shortcut = ""
+  }
+  { Action pt.Show
+    Text = "Português (Portugal)"
+    Shortcut = ""
+  }
+  { Action ru.Show
+    Text = "Pусский"
+    Shortcut = ""
+  }
+  { Action us.Show
+    Text = "English (USA)"
+    Shortcut = ""
+  }
+}

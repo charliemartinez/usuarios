@@ -1,0 +1,95 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: usuarios 3.18.0\n"
+"POT-Creation-Date: 2023-12-29 21:27 UTC\n"
+"PO-Revision-Date: 2023-12-29 21:51 UTC\n"
+"Last-Translator: charlie <charlie@estudio>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .project:1
+msgid "Usuarios"
+msgstr "Utilisateurs"
+
+#: .project:2
+msgid "GUI sencilla que reune atajos para adminitrar usuarios, grupos y contraseñas."
+msgstr "Interface graphique simple qui rassemble des raccourcis pour gérer les utilisateurs, les groupes et les mots de passe."
+
+#: FMain.form:33
+msgid "Idioma"
+msgstr "Langage"
+
+#: FMain.form:103
+msgid "  Gestor de usuarios"
+msgstr "  Gestionnaire d'utilisateurs"
+
+#: FMain.form:110
+msgid "Requiere contraseña de administrador"
+msgstr "Nécessite un mot de passe administrateur"
+
+#: FMain.form:111
+msgid "Administrar usuarios y grupos"
+msgstr "Gérer les utilisateurs et les groupes"
+
+#: FMain.form:119
+msgid "Cambiar la contraseña de tu usuario"
+msgstr "Changez votre mot de passe d'utilisateur"
+
+#: FMain.form:120
+msgid "Cambiar contraseña del usuario actual"
+msgstr "Changer le mot de passe de l'utilisateur actuel"
+
+#: FMain.form:128
+msgid "Requiere conocer la contraseña actual"
+msgstr "Nécessite de connaître le mot de passe actuel"
+
+#: FMain.form:129
+msgid "Cambiar contraseña usuario administrador"
+msgstr "Changer le mot de passe de l'administrateur"
+
+#: FMain.form:137
+msgid "Salir"
+msgstr "Sortir"
+
+#: FMain.form:145
+msgid "Activa inicio de sesion automático para el usuario actual"
+msgstr "Activer la connexion automatique pour l'utilisateur actuel"
+
+#: FMain.form:146
+msgid "Activar inicio de sesión automático"
+msgstr "Activer la connexion automatique"
+
+#: FMain.form:154
+msgid "Requiere contraseña del usuario actual"
+msgstr "Exiger le mot de passe de l'utilisateur actuel"
+
+#: FMain.form:155
+msgid "Desactivar inicio de sesión automático"
+msgstr "Désactiver la connexion automatique"
+
+#: FMain.form:163
+msgid "Modificar foto y datos de perfil"
+msgstr "Modifier les données de photo et de profil"
+
+#: activado.form:19 desactivado.form:47
+msgid "A continuación se abrirá la terminal de comandos.  ¡No le tengas miedo! Sólo escribe el comando:"
+msgstr "La ligne de commande s'ouvrira. N'aie pas peur! Tape simplement la commande :"
+
+#: activado.form:29 desactivado.form:16
+msgid "OK"
+msgstr "D'accord"
+
+#: activado.form:36
+msgid "autologin"
+msgstr "autologin"
+
+#: activado.form:48 desactivado.form:23
+msgid "Luego presiona <Enter>. El sistema solicitará tu clave, ingrésala, presiona <Enter> otra vez y listo ¿Verdad que es fácil?"
+msgstr "Ensuite, appuie sur <Entrée>. Le système demandera ton mot de passe, saisis-le, appuie de nouveau sur <Entrée> et c'est tout ! N'est-ce pas facile ?"
+
+#: desactivado.form:35
+msgid "noautologin"
+msgstr "noautologin"

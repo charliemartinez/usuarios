@@ -1,0 +1,95 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: usuarios 3.18.0\n"
+"POT-Creation-Date: 2023-12-29 21:27 UTC\n"
+"PO-Revision-Date: 2023-12-29 21:51 UTC\n"
+"Last-Translator: charlie <charlie@estudio>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .project:1
+msgid "Usuarios"
+msgstr "Usuários"
+
+#: .project:2
+msgid "GUI sencilla que reune atajos para adminitrar usuarios, grupos y contraseñas."
+msgstr "Interface gráfica simples que reúne atalhos para administrar usuários, grupos e senhas."
+
+#: FMain.form:33
+msgid "Idioma"
+msgstr "Língua"
+
+#: FMain.form:103
+msgid "  Gestor de usuarios"
+msgstr "  Gerente de usuário"
+
+#: FMain.form:110
+msgid "Requiere contraseña de administrador"
+msgstr "Requer senha de administrador"
+
+#: FMain.form:111
+msgid "Administrar usuarios y grupos"
+msgstr "Gerenciar usuários e grupos"
+
+#: FMain.form:119
+msgid "Cambiar la contraseña de tu usuario"
+msgstr "Mude sua senha"
+
+#: FMain.form:120
+msgid "Cambiar contraseña del usuario actual"
+msgstr "Alterar a senha do usuário atual"
+
+#: FMain.form:128
+msgid "Requiere conocer la contraseña actual"
+msgstr "Requer saber a senha atual"
+
+#: FMain.form:129
+msgid "Cambiar contraseña usuario administrador"
+msgstr "Alterar senha de usuário administrador"
+
+#: FMain.form:137
+msgid "Salir"
+msgstr "Saia"
+
+#: FMain.form:145
+msgid "Activa inicio de sesion automático para el usuario actual"
+msgstr "Ativar login automático para o usuário atual"
+
+#: FMain.form:146
+msgid "Activar inicio de sesión automático"
+msgstr "Ativar login automático"
+
+#: FMain.form:154
+msgid "Requiere contraseña del usuario actual"
+msgstr "Requer a senha do usuário atual"
+
+#: FMain.form:155
+msgid "Desactivar inicio de sesión automático"
+msgstr "Desativar login automático"
+
+#: FMain.form:163
+msgid "Modificar foto y datos de perfil"
+msgstr "Modificar foto e dados do perfil"
+
+#: activado.form:19 desactivado.form:47
+msgid "A continuación se abrirá la terminal de comandos.  ¡No le tengas miedo! Sólo escribe el comando:"
+msgstr "A seguir, abrirá o terminal de comandos. Não tenha medo! Apenas digite o comando:"
+
+#: activado.form:29 desactivado.form:16
+msgid "OK"
+msgstr "OK"
+
+#: activado.form:36
+msgid "autologin"
+msgstr "autologin"
+
+#: activado.form:48 desactivado.form:23
+msgid "Luego presiona <Enter>. El sistema solicitará tu clave, ingrésala, presiona <Enter> otra vez y listo ¿Verdad que es fácil?"
+msgstr "Então pressione <Enter>. O sistema solicitará sua senha, insira-a, pressione <Enter> novamente e pronto! Não é fácil?"
+
+#: desactivado.form:35
+msgid "noautologin"
+msgstr "noautologin"
