@@ -3,7 +3,7 @@
 **Autor / Author:** Charlie Martínez – Quirinux GNU/Linux®  
 **Licencia / License:** GPLv2.0
 
-[TODO añadir screenshot]
+![quirinux-usuarios-2025](https://github.com/user-attachments/assets/ee66a707-0d9f-437a-bf58-9fd6041459c8)
 
 ---
 
@@ -28,7 +28,8 @@ It is natively integrated into **Quirinux**, but it remains compatible with any 
 - Gestión de:
   - Usuarios  
   - Grupos  
-  - Contraseñas  
+  - Contraseñas
+  - Activar autologin
 - Elevación de privilegios solo cuando es necesario  
 - Interfaz simple y directa  
 - Integración con el entorno Quirinux  
@@ -40,7 +41,8 @@ It is natively integrated into **Quirinux**, but it remains compatible with any 
 - Management of:
   - Users  
   - Groups  
-  - Passwords  
+  - Passwords
+  - Enable autologin
 - Privilege escalation only when required  
 - Simple and straightforward interface  
 - Integrated into the Quirinux desktop  
@@ -65,12 +67,10 @@ Main application:
 ## ⚖️ Aviso legal / Legal Notice
 
 **ES:**  
-Este proyecto forma parte del ecosistema **Quirinux**, pero es compatible con cualquier distribución moderna de GNU/Linux.  
-Distribuido bajo los términos de la licencia **GPLv2**.
+Este proyecto forma parte del ecosistema **Quirinux**, pero es compatible con cualquier distribución moderna de GNU/Linux. Distribuido bajo los términos de la licencia **GPLv2**.
 
 **EN:**  
-This project is part of the **Quirinux** ecosystem but remains compatible with any modern GNU/Linux distribution.  
-Released under the terms of the **GPLv2 license**.
+This project is part of the **Quirinux** ecosystem but remains compatible with any modern GNU/Linux distribution. Released under the terms of the **GPLv2 license**.
 
 **Autor / Author:** Charlie Martínez  
 📧 <cmartinez@quirinux.org>
