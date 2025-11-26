@@ -1,0 +1,10 @@
+# Forzar que GitHub cuente código dentro de carpetas ocultas
+.src/** linguist-detectable=true
+.hidden/** linguist-detectable=true
+
+# Forzar Gambas como lenguaje para sus archivos
+.src/**/*.class linguist-language=Gambas linguist-detectable=true
+.src/**/*.form  linguist-language=Gambas linguist-detectable=true
+
+main.gbs linguist-language=Gambas linguist-detectable=true
+
