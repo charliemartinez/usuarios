@@ -1,0 +1,46 @@
+' Gambas class file
+
+
+Public Sub usuarios_Click()
+
+  
+  Shell "users-admin"
+
+End
+
+
+Public Sub passactual_Click()
+
+  Shell "userpasswd"
+
+End
+
+Public Sub passadmin_Click()
+
+  Shell "pkexec --disable-internal-agent env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY PKEXEC_UID=$(id -u) userpasswd"
+
+End
+
+Public Sub passadmin2_Click()
+
+  Me.Close
+
+End
+
+Public Sub autologin_Click()
+
+  Shell "autologin"
+
+End
+
+Public Sub mugshot_Click()
+
+  Shell "mugshot"
+
+End
+
+Public Sub noautologin_Click()
+
+  Shell "noautologin"
+
+End

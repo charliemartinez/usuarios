@@ -1,0 +1,90 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: usuarios 3.18.0\n"
+"POT-Creation-Date: 2025-01-28 19:36 UTC\n"
+"PO-Revision-Date: 2023-12-29 21:49 UTC\n"
+"Last-Translator: charlie <charlie@estudio>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .project:1
+msgid "Usuarios"
+msgstr "Benutzer"
+
+#: .project:2
+msgid "GUI sencilla que reune atajos para adminitrar usuarios, grupos y contraseñas."
+msgstr "Einfache GUI, die Verknüpfungen zur Verwaltung von Benutzern, Gruppen und Passwörtern sammelt."
+
+#: FMain.form:34
+msgid "Idioma"
+msgstr "Idiom"
+
+#: FMain.form:104
+msgid "  Gestor de usuarios"
+msgstr "  Benutzer Manager"
+
+#: FMain.form:111
+msgid "Requiere contraseña de administrador"
+msgstr "Ändern Sie Ihr Passwort für Ihren Benutzernamen"
+
+#: FMain.form:112
+msgid "Administrar usuarios y grupos"
+msgstr "Benutzer und Gruppen verwalten"
+
+#: FMain.form:120
+msgid "Cambiar la contraseña de tu usuario"
+msgstr "Ändern Sie Ihr Passwort"
+
+#: FMain.form:121
+msgid "Cambiar contraseña del usuario actual"
+msgstr "Passwort des aktuellen Benutzers ändern"
+
+#: FMain.form:129
+msgid "Requiere conocer la contraseña actual"
+msgstr "Erfordert die Kenntnis des aktuellen Passworts"
+
+#: FMain.form:130
+msgid "Cambiar contraseña usuario administrador"
+msgstr "Administrator-Benutzerkennwort ändern"
+
+#: FMain.form:138
+msgid "Salir"
+msgstr "Aussteigen"
+
+#: FMain.form:146
+msgid "Activa inicio de sesion automático para el usuario actual"
+msgstr "Aktiviere die automatische Anmeldung für den aktuellen Benutzer"
+
+#: FMain.form:147
+msgid "Activar inicio de sesión automático"
+msgstr "Automatische Anmeldung aktivieren"
+
+#: FMain.form:155
+msgid "Requiere contraseña del usuario actual"
+msgstr "Aktuelles Benutzerpasswort anfordern"
+
+#: FMain.form:156
+msgid "Desactivar inicio de sesión automático"
+msgstr "Deaktivieren Sie die automatische Anmeldung"
+
+#: FMain.form:164
+msgid "Modificar foto y datos de perfil"
+msgstr "Foto- und Profildaten ändern"
+
+#~ msgid "A continuación se abrirá la terminal de comandos.  ¡No le tengas miedo! Sólo escribe el comando:"
+#~ msgstr "Die Befehlszeile wird geöffnet. Hab keine Angst! Schreibe einfach den Befehl:"
+
+#~ msgid "Luego presiona <Enter>. El sistema solicitará tu clave, ingrésala, presiona <Enter> otra vez y listo ¿Verdad que es fácil?"
+#~ msgstr "Dann drücke <Enter>. Das System wird nach deinem Passwort fragen. Gib es ein, drücke erneut <Enter> und fertig! Ist das nicht einfach?"
+
+#~ msgid "OK"
+#~ msgstr "Okay"
+
+#~ msgid "autologin"
+#~ msgstr "autologin"
+
+#~ msgid "noautologin"
+#~ msgstr "noautologin"
