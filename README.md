@@ -1,7 +1,8 @@
 # Quirinux Usuarios
 
 **Autor / Author:** Charlie Martínez – Quirinux GNU/Linux®  
-**Licencia / License:** GPLv2.0
+**Licencia / License:** GPLv2.0 <br>
+**Compatible OS:** Debian 12 Bookworm, Devuan 5 Daedalus
 
 ![quirinux-usuarios-2025](https://github.com/user-attachments/assets/ee66a707-0d9f-437a-bf58-9fd6041459c8)
 
@@ -57,10 +58,22 @@ It is natively integrated into **Quirinux**, but it remains compatible with any 
 ## ▶️ Ejecución / How to Run
 
 **ES:**  
-Aplicación principal:  
+Descargar e instalar dependencia (requiere permisos de administración).
 
 **EN:**  
-Main application:
+Download and install the dependency (requires administrator permissions).
+
+    wget https://repo.quirinux.org/pool/main/q/quirinux-autologin/quirinux-autologin_1.4.1_all.deb
+    apt install ./quirinux-autologin_1.4.1_all.deb
+
+    apt-update
+    apt-get install 
+
+**ES:**  
+Descargar e instalar el programa principal.
+
+**EN:**  
+Download and install the main program.
 
     https://repo.quirinux.org/pool/main/q/quirinux-usuarios/quirinux-usuarios_1.2.1_all.deb
     apt install ./quirinux-usuarios_1.2.1_all.deb
